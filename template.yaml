@@ -1,0 +1,39 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+    runtime-versions:
+      java: corretto8
+  pre_build:
+    commands:
+      - echo PRE-Build started on `date`
+      - cd petrahub
+      - cd Blgz_Common_Libs
+      - mvn clean install
+      - cd ..
+      - cd Blgz_Common_Icons
+      - mvn clean install
+  build:
+    commands:
+      - echo Build started on `date`
+      - cd ..
+      - cd Subsurface_Data_Studio_AWS     
+      - mvn clean install
+      - mvn clean package -Pproduction
+      
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - pwd
+      - cd ..
+      - pwd
+      - cd ..
+      - pwd
+      - mkdir atrifact
+      - pwd
+      - unzip Subsurface_Data_Studio/sds-app/target/ROOT.war -d artifact/
+artifacts:
+  files:
+      - artifact/**/*
+  
