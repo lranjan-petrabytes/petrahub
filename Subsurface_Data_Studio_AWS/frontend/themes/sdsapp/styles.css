@@ -1,0 +1,10 @@
+@import url('./main-layout.css');
+@import url('./views/seismic-view.css');
+@import url('./views/wells-view.css');
+@import url('./views/well-logs-view.css');
+@import url('./views/completions-view.css');
+@import url('lumo-css-framework/all-classes.css');
+@import url('./views/main/login.css');
+@import url('./views/main/Dashboard.css');
+@import url('./global.css');
+@import url('./views/main/Databricks_Cluster.css');

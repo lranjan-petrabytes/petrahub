@@ -1,0 +1,68 @@
+.dashboard-user {
+	width: 32px;
+	height: 32px;
+	padding-top: 8px;
+	padding-left: 11px;
+	padding-right: 11px;
+	padding-bottom: 8px;
+}
+
+.dashboard-layout {
+	 background: url("icons/bg04.png");
+	background-repeat: no-repeat !important;
+	background-size: 100% 100% !important;
+	background-attachment: fixed;
+	overflow: auto;
+}
+
+.dashboard-side {
+	background-color: rgb(236, 233, 243);background-repeat: no-repeat !important;
+	background-size: 100% 100% !important;
+	background-attachment: fixed;
+	overflow: auto;
+	width: 70%;
+}
+
+.dashboardbutton:hover {
+	background: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	border: 1px solid;
+}
+
+.mainSubHeaderLayout {
+	background-color: rgb(236, 233, 243);
+}
+
+
+.dashboardbutton_label {
+	text-align: center !important;
+	font-size: 23px !important;
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial,
+		sans-serif !important;
+	color: black !important;
+	display: block !important;
+
+	 }
+
+.dashboardbutton:hover .dashboardbutton_label {
+	 color: #3172B0 !important;
+}
+
+.left_border {
+	 border-left: 1px solid #D1D1D1;
+	
+}
+.settings_label2 {
+	color: #48278F !important;
+	margin-top: 10px;
+}
+
+.dashboardbutton {
+	width: 250px !important;
+	height: 250px !important;
+	background: transparent !important;
+	border: none;
+	margin-left: 39%;
+	margin-top:25%;
+}

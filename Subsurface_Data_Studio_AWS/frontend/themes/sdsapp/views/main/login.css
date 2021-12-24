@@ -1,0 +1,136 @@
+
+
+.username-field, .password-field, .footer-layout{
+    margin: auto !important;
+    width: 350px !important;
+}
+
+.login-button{
+    margin: auto !important;
+    width: 250px !important;
+    margin-bottom: 30px;
+}
+
+body{
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+label{
+     color: black;
+}
+.back_Image{
+    background: url("icons/bg04.png");
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-attachment: fixed;
+    overflow: auto;
+}
+.login-form
+{
+	background-color: white;
+	 width: 480px;
+	 margin: auto;
+	  border-radius: 20px;
+	 border-style: solid ;
+	 border-color: #D1D1D1;
+	
+}
+
+.login-content {
+	margin: auto;
+	background-color: #fff;
+	flex-wrap: wrap;
+}
+
+.verification{
+	font-size: x-large;
+	font-weight: bold;
+	align-self: center;
+}
+.signup-layout {
+	background: url("icons/bg04.png");
+	background-repeat: no-repeat !important;
+	background-size: 100% 100% !important;
+	background-attachment: fixed;
+	overflow: auto;
+	
+	
+}
+
+
+.login_buttons {
+		color: inherit;
+		font-weight: 800;
+		border: aliceblue;
+		background: transparent;
+		text-decoration: underline;
+		font-family: var(- -material-font-family);
+		font-size: var(- -material-body-font-size);
+		line-height: 1.4;
+		margin-bottom: -6%;
+}
+.login_account{
+	padding-left:30%;
+	font-weight: bold;
+	margin-top: 6%;
+}
+
+dashboard-layout1 {
+	background: url("icons/bg02.jpg");
+	background-repeat: no-repeat !important;
+	background-size: 100% 100% !important;
+	background-attachment: fixed;
+	overflow: auto;
+}
+
+media only screen and (min-width: 0px ) and (max-width: 450px ) {
+	.login-form {
+	width: auto !important;
+}
+
+.signUp-theme {
+	width: auto !important;
+	
+}
+}
+
+
+
+
+
+
+@media only screen and (min-width: 451px) and (max-width: 700px) {
+	.login-form {
+		width: 80% !important;
+	}
+	.signUp-theme {
+		width: 80% !important;
+	}
+	.login-content {
+		display: flex;
+		margin-top: 3%;
+	}
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+	.login-form {
+		width: 60% !important;
+	}
+	.signUp-theme {
+		width: 50% !important;
+	}
+	.login-content {
+		display: block ruby;
+		margin-top: 3%;
+	}
+}
+
+@media only screen and (min-width: 1201px) {
+	.login-form {
+		width: 30% !important;
+	}
+}
+

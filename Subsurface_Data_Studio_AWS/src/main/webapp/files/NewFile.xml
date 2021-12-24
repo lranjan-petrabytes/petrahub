@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pbDashboardRegistry>
+	<Dashboard>
+		<id>0</id>
+		<className>com.example.application.views.Dashboard_View</className>
+		<displayText>Dashboard</displayText>
+		<iconPath>/com/petrabytes/icons/set3/dashboard/x96/petrahub36.png</iconPath>
+		<iconClassLoader>com.petrabytes.icons.set3.mod.Petrabytes_Icon_Set3_Loader</iconClassLoader>
+		<level>0</level>
+		<Descriptor>
+			<id>1</id>
+			<className>com.example.application.views.Dashboard_View</className>
+			<displayText> </displayText>
+			<iconPath>/com/petrabytes/set3/dashboard/x96/user_administration_96.png</iconPath>
+			<iconClassLoader>com.petrabytes.set3.mod.Blgz_Set3_Loader</iconClassLoader>
+			<level>0</level>
+			
+			
+		</Descriptor>
+		
+		<Descriptor>
+			<id>3</id>
+			<className>com.example.application.views.Dashboard_View</className>
+			<displayText> </displayText>
+			<iconPath>/com/petrabytes/set3/dashboard/x96/Well_registry96_2.png</iconPath>
+			<iconClassLoader>com.petrabytes.set3.mod.Blgz_Set3_Loader</iconClassLoader>
+			<level>0</level>
+				
+				
+			
+		</Descriptor>
+		<Descriptor>
+			<id>4</id>
+			<className>com.example.application.views.Dashboard_View</className>
+			<displayText>DeveLopment</displayText>
+			<iconPath>/com/petrabytes/icons/set3/dashboard/x96/data_analytics_geomechanics96.png</iconPath>
+			<iconClassLoader>com.petrabytes.icons.set3.mod.Petrabytes_Icon_Set3_Loader</iconClassLoader>
+			<level>0</level>
+		
+		</Descriptor>
+	</Dashboard>
+	<Dashboard>
+		<id>2</id>
+		<className>com.example.application.views.Dashboard_View</className>
+		<displayText>Dashboard</displayText>
+		<iconPath>/com/petrabytes/icons/set3/dashboard/x96/1d_geomechanics_96.png</iconPath>
+		<iconClassLoader>com.petrabytes.icons.set3.mod.Petrabytes_Icon_Set3_Loader</iconClassLoader>
+		<level>0</level>
+				
+	</Dashboard>
+</pbDashboardRegistry>

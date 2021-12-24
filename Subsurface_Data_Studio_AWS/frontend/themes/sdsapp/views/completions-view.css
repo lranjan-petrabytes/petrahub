@@ -1,0 +1,10 @@
+.completions-view {
+  display: block;
+}
+.label-rotate{
+	transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+	position: absolute;
+	margin-left: 17px;
+	margin-top: 39px;
+	color: #48278F !important;
+}

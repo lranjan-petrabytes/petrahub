@@ -1,0 +1,63 @@
+html {
+  --lumo-font-family: Arial, Helvetica, sans-serif;
+  --lumo-primary-text-color: hsl(256, 56%, 36%);
+  --lumo-primary-color: hsl(256, 56%, 36%);
+  --lumo-primary-color-50pct: hsla(256, 56%, 36%, 0.5);
+  --lumo-primary-color-10pct: hsla(256, 56%, 36%, 0.1);
+  --lumo-space-l: 0px;
+  --lumo-border-radius:0px;
+}
+
+
+.gis-map{
+	z-index:0;
+}
+
+.bg{
+	stroke-width: 1px !important;
+}
+
+.bglayer{
+	stroke : #A9A9A9 !important;
+}
+
+.blg-button{
+	
+}
+
+.config_label{
+	margin-top : 10px;
+	margin-left : 15px;
+	color: #48278F  !important;
+}
+.config{
+	margin-top : 10px;
+	margin-left : 15px;
+	color: black !important;
+}
+.config_text{
+	margin-top : 10px;
+	margin-left : 3px;
+}
+
+.tab_label_spacing{
+	margin-left : 10px;
+}
+
+.deviationSurveyTab :hover {
+	background: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	border: 1px solid;
+	
+}
+
+.summary-layout{
+	overflow-y:auto;
+}
+
+.summary-layout::-webkit-scrollbar { width: 0 !important }
+
+.summary-layout { overflow: -moz-scrollbars-none; }
+
+.summary-layout{ -ms-overflow-style: none; }

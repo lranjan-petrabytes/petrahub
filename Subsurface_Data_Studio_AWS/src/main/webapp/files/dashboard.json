@@ -1,0 +1,170 @@
+{"dashboard":
+	{
+		"name":"dashboard",
+		"id" : "0.0",
+		"views" : {
+			"upstream":{
+					"name":"Upstream",
+					"icon":"dashboard/upstream_96.png",
+					"id": "1.0",
+					"naviagte":"dashboard/upstream",
+					"tabs":[
+						{
+							"name" : "Basins",
+							"classview":"com.petrabytes.views.basin.BasinView",
+							"icon" : "images/left-panel-new/Basin-48.png"
+						},
+						{
+							"name" : "Completions",
+							"classview":"com.petrabytes.views.completions.CompletionsView",
+							"icon" : "images/left-panel-new/completions-48x.png"
+						},
+						{
+							"name" : "Core Data",
+							"classview":"com.petrabytes.views.coredata.CoreDataView",
+							"icon" : "images/left-panel-new/core_data_48_2.png"
+						},
+						{
+							"name" : "DAS",
+							"classview":"com.petrabytes.views.das.DasView",
+							"icon" : "images/left-panel-new/das-48x.png"
+						},
+						{
+							"name" : "DTS",
+							"classview":"com.petrabytes.views.dts.DTSView",
+							"icon" : "images/left-panel-new/dts-48x.png"
+						},
+						{
+							"name" : "Drilling Reports",
+							"classview":"com.petrabytes.views.drilling_report.DrillReports_UI",
+							"icon" : "images/drilling-report.svg"
+						},
+						{
+							"name" : "Geobodies",
+							"classview":"com.petrabytes.views.geobodies.GeobodiesView",
+							"icon" : "images/left-panel-new/geobodies-48x.png"
+						},
+						{
+							"name" : "GIS",
+							"classview":"com.petrabytes.views.gis.GISView",
+							"icon" : "images/left-panel-new/gis-48x.png"
+						},
+						{
+							"name" : "Seismic",
+							"classview":"com.petrabytes.views.seismic.SeismicView",
+							"icon" : "images/left-panel-new/seismic-48x.png"
+						},
+						{
+							"name" : "Wells",
+							"classview":"com.petrabytes.views.wells.WellsmainView",
+							"icon" : "images/left-panel-new/wells-48x.png"
+						},
+						{
+							"name" : "Wellbores",
+							"classview":"com.petrabytes.views.wellbore.WellboreView",
+							"icon" : "images/left-panel-new/wellbore48.png"
+						},
+						{
+							"name" : "Well Logs",
+							"classview":"com.petrabytes.views.welllogsmain.WellLogsMain",
+							"icon" : "images/left-panel-new/well-logs-48x.png"
+						},
+						{
+							"name" : "OSDU Data Import",
+							"classview":"com.petrabytes.views.osdudata.OsduDataView",
+							"icon" : "images/left-panel-new/OSDU_data_import24.png"
+						},
+						{
+							"name" : "OSDU Wells",
+							"classview":"com.petrabytes.views.osdu.OSDUView",
+							"icon" : "images/left-panel-new/OSDU_wells24.png"
+						},
+						{
+						   "name" : "OSDU Well Logs",
+						   "classview" : "com.petrabytes.views.osduWellLogs.OsduWellLogs",
+						   "icon" : "images/left-panel-new/OSDU_well_logs24.png"
+						}
+							
+					]
+			},
+			"pipeline":{
+					"name":"Pipelines",
+					"icon":"dashboard/pipeline_96.png",
+					"id": "3.0",
+					"naviagte":"dashboard/pipeline",
+					"tabs":[
+						{
+							"name" : "GIS",
+							"classview":"com.petrabytes.views.gis.GISView",
+							"icon" : "images/GIS_data48.png"
+						},
+						{
+							"name" : "Wells",
+							"classview":"com.petrabytes.views.wells.WellsmainView",
+							"icon" : "images/wells48.png"
+						},
+						{
+							"name" : "Pipeline GIS",
+							"classview":"com.petrabytes.views.gis.PipelineGIS",
+							"icon" : "images/pipeline_GIS_48_blue.png"
+						}
+					]
+			},
+			"refineries":{
+					"name":"Refineries",
+					"icon":"dashboard/Refinery_96x.png",
+					"id": "2.0",
+					"naviagte":"dashboard/upstream",
+					"tabs":[
+						
+					]
+			},
+			"geothermal":{
+					"name":"Geothermal",
+					"icon":"dashboard/geothermal_96.png",
+					"id": "2.0",
+					"naviagte":"dashboard/upstream",
+					"tabs":[
+						
+					]
+			},
+			"electric-grid":{
+					"name":"Electric Grid",
+					"icon":"dashboard/electric_96.png",
+					"id": "2.0",
+					"naviagte":"dashboard/upstream",
+					"tabs":[
+						
+					]
+			},
+			"industrial-automation":{
+					"name":"Industrial Automation",
+					"icon":"dashboard/automation_96.png",
+					"id": "2.0",
+					"naviagte":"dashboard/upstream",
+					"tabs":[
+						
+					]
+			},
+			"wind":{
+					"name":"Wind",
+					"icon":"dashboard/Wind_96.png",
+					"id": "2.0",
+					"naviagte":"dashboard/upstream",
+					"tabs":[
+						
+					]
+			},
+			"solor":{
+					"name":"Solar",
+					"icon":"dashboard/solar-panel_96.png",
+					"id": "2.0",
+					"naviagte":"dashboard/upstream",
+					"tabs":[
+						
+					]
+			}
+		}
+	
+	}
+}
